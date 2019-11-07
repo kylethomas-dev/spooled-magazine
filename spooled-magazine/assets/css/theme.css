@@ -1,0 +1,286 @@
+/* Global */
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    color: #000 !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0em;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.form-black {
+    border: 1.5px solid #000 !important;
+    border-radius: 0 !important;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 0rem;
+    font-weight: 700;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    padding: .8rem;
+}
+
+a.btn-black {
+    background-color: #000;
+    color: #fff;
+    padding: .8rem;
+}
+
+.btn-black:hover,
+.btn-black:focus,
+.btn-black:active {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000000 !important;
+}
+
+a.btn-black:hover,
+a.btn-black:focus,
+a.btn-black:active {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000000 !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit.btn.btn-black {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    padding: .8rem;
+}
+
+input.wpcf7-form-control.wpcf7-submit.btn.btn-black:hover,
+input.wpcf7-form-control.wpcf7-submit.btn.btn-black:focus,
+input.wpcf7-form-control.wpcf7-submit.btn.btn-black:active {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000000 !important;
+}
+
+/* Main Nav */
+
+.site-header {
+    background-color: #000;
+    color: #fff;
+}
+
+.site-header a {
+    color: #fff;
+}
+
+img.d-inline-block.align-top.site-logo {
+    width: 32%;
+}
+
+a:visited {
+    color: #1ea2cc;
+}
+
+a {
+    color: #1ea2cc;
+}
+
+/* Header */
+
+.breadcrumb {
+    background-color: transparent;
+    color: #1ea2cc;
+    padding: 0rem;
+}
+
+.breadcrumb a {
+    color: #fff;
+}
+
+.hero-image {
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image h1 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.60);
+}
+
+.hero-image h6 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.60);
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Footer */
+
+.site-footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-footer {
+    background-color: #fff;
+    color: #000;
+    border-radius: none;
+    border-top: 3px solid #1ea2cc;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: none;
+}
+
+.sub-footer {
+    position: relative;
+}
+
+.card.card-footer {
+    position: absolute;
+}
+
+.no-bullets {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.site-footer a {
+    color: #d9d9d9;
+    display: block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 23px;
+}
+
+.site-footer h6 {
+    height: auto;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.fa-facebook {
+    color: #0084FF;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.fa-facebook:hover,
+.fa-youtube:hover,
+.site-footer a:hover {
+    color: #1ea2cc;
+}
+
+/* Sidebar */
+
+.widget_categories ul {
+    list-style: none;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    padding-start: 0px;
+    margin: 0;
+}
+
+.widget_categories ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.6rem;
+}
+
+.sidebar {
+    position: fixed;
+    top: 20em;
+    right: 0;
+    z-index: 99;
+    color: #fff;
+    background-color: #000;
+}
+
+.right-aside {
+    background: #000;
+    display: inline-block;
+    white-space: nowrap;
+    width: 50px;
+    transition: width 1s;
+}
+
+.sidebar a {
+    font-size: .75em;
+    width: 100%;
+    clear: both;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    margin-top: 1px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.right-aside .aside-icon {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 20px;
+    color: #fff;
+}
+
+.item-aside {
+    height: 50px;
+    overflow: hidden;
+    color: #fff;
+    padding: 15px;
+}
+
+.item-aside:hover {
+    background-color: #000 !important;
+}
+
+.right-aside:hover {
+    width: 250px;
+}
+
+/* Embed */
